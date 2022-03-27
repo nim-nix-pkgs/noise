@@ -11,6 +11,7 @@
   inputs.src-noise-master.ref   = "refs/heads/master";
   inputs.src-noise-master.owner = "jangko";
   inputs.src-noise-master.repo  = "nim-noise";
+  inputs.src-noise-master.dir   = "";
   inputs.src-noise-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
