@@ -11,7 +11,6 @@
   inputs.src-noise-v0_1_14.ref   = "refs/tags/v0.1.14";
   inputs.src-noise-v0_1_14.owner = "jangko";
   inputs.src-noise-v0_1_14.repo  = "nim-noise";
-  inputs.src-noise-v0_1_14.dir   = "";
   inputs.src-noise-v0_1_14.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
