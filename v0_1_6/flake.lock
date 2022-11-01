@@ -39,10 +39,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-noise-master": "src-noise-master"
+        "src-noise-v0_1_6": "src-noise-v0_1_6"
       }
     },
-    "src-noise-master": {
+    "src-noise-v0_1_6": {
       "flake": false,
       "locked": {
         "lastModified": 1662554140,
@@ -54,7 +54,7 @@
       },
       "original": {
         "owner": "jangko",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.1.6",
         "repo": "nim-noise",
         "type": "github"
       }
